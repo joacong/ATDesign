@@ -1,0 +1,316 @@
+/*
+font-family:'Proxima Nova W08 Reg';
+font-family:'Proxima N W01SC Reg';
+font-family:'Proxima N W01 Cd Reg';
+font-family:'Foundry Monoline W01 Md';
+
+
+*/
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?qndt1l');
+	src:url('../fonts/icomoon.eot?#iefixqndt1l') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?qndt1l') format('woff'),
+		url('../fonts/icomoon.ttf?qndt1l') format('truetype'),
+		url('../fonts/icomoon.svg?qndt1l#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*elementos base*/
+
+body{
+    font-family:'Proxima Nova W08 Reg', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #f3f5f9;
+    background-color: #3a3c3f;
+}
+
+h1,h2,h3{
+    font-family:'Foundry Monoline W01 Md';
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2.25em;
+    line-height: 1em;
+    margin-bottom: 1em;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+
+
+/*Layout*/
+
+header{
+    height: 50px;
+    background-color: #1a1c1f;
+    
+}
+
+.wrap{
+    margin-top: 70px;
+    height: 550px;
+    
+}
+
+.sidebar-left{
+    height: 550px;
+    
+}
+
+.sidebar-right{
+    height: 550px;
+    padding: 0;
+    
+}
+
+.contenido{
+    padding: 10px 20px;
+    background-color: #1a1c1f;
+}
+
+.sc{
+    font-family:'Proxima N W01SC Reg';
+    
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+
+.logo{
+    
+    display: block;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    background-color: white;
+    background: url(../img/logo.svg) no-repeat;
+}
+
+.navegacion{
+    font-family:'Proxima N W01 Cd Reg';
+    font-size: 1.15em;
+    line-height: 70px;
+    height:70px;
+    text-align: center;
+    
+}
+
+.navegacion a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+    transition: border 100ms ease-in-out;
+}
+
+.navegacion a:hover{
+    border-bottom: 2px solid #f3f5f9;
+}
+
+
+
+/*elementos extra*/
+
+.boton{
+    height: 40px;
+    font-size: 0.85em;
+    line-height: 40px;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+}
+
+.boton-1{
+    width: 250px;
+    background-color: rgba(64, 153, 255,1.0);
+}
+
+.boton-1:hover{
+    background-color: rgba(64, 153, 255,0.9);
+}
+
+.boton-2{
+    width: 100px;
+    background-color: rgba(42, 185, 185,1.0);
+    margin-right: 2px;
+}
+
+.boton-2:hover{
+    background-color: rgba(42, 185, 185,0.9);
+
+}
+
+.boton-3{
+    font-family: 'icomoon';
+    font-size: 1.5em;
+    width: 50px;
+    
+    margin-right: 2px;
+}
+
+.boton-3:hover{
+    color:#4099ff;
+
+}
+
+.icon-search:before {
+    content: "\e986";
+}
+
+
+
+.icon-twitter:before {
+    content: "\ea91";
+}
+
+.info{
+
+    height: 150px;
+    margin-top: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.info h2{
+    margin: 0;
+    padding: 10px;
+}
+
+.info a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.como-comprar{
+   
+    padding: 0;
+    padding-right: 5px;
+    
+}
+
+.como-comprar section{
+    height: 150px;
+    background: #4099ff;
+
+}
+
+.contacto{
+  
+    padding: 0;
+    padding-left: 5px;
+}
+
+.contacto section{
+    height: 150px;
+    background: #2ab9b9;
+
+}
+
+.question-icon{
+    font-family:'Foundry Monoline W01 Md';
+    font-size: 100px;
+    width: 100px;
+    line-height: 100px;
+    background-color: white;
+    color: #4099ff;
+    border-radius: 50%;
+}
+
+.icon-user:before {
+    font-family: 'icomoon';
+    content: "\e971";
+    font-size: 60px;
+    width: 100px;
+    line-height: 100px;
+    background-color: white;
+    color: #2ab9b9;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+/*elementos moviles*/
+
+.slider{
+    padding: 0;
+    margin-top: 20px;
+   
+
+}
+
+.slider img{
+    width: 100%;
+    height: 350px;
+}
+
+.test{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 200px;
+    background-color: firebrick;
+}
+
+
+/*Como Comprar*/
+
+.pasos-comprar{
+    margin-top: 80px;
+    
+}
+
+.pasos-comprar h2{
+    text-align: center;
+}
+
+.paso{
+    height: 300px;
+    background-color: #4099ff;
+    padding: 10px;
+}
+
+
+
+.icon{
+    font-family: 'icomoon';
+    font-size: 70px;
+    width: 140px;
+    height: 140px;
+    margin: -70px auto 0;
+    line-height: 100px;
+    background-color: #f3f5f9;
+    color: #2ab9b9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 140px;
+    box-shadow: -3px 5px 1px rgba(51, 53, 57,0.5);
+}
+
+.paso-1:before {
+    content: "\e93a";
+}
+
+.paso-2:before {
+    content: "\e93b";
+}
+
+.paso-3:before {
+    content: "\e95f";
+}
+
+
+
