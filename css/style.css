@@ -73,6 +73,7 @@ header{
 }
 
 .contenido{
+    min-height: 500px;
     padding: 10px 20px;
     background-color: #1a1c1f;
 }
@@ -113,6 +114,39 @@ header{
 
 .navegacion a:hover{
     border-bottom: 2px solid #f3f5f9;
+}
+
+footer{
+   margin-top: 100px;
+    min-height: 150px;
+    padding: 20px;
+    color:#2ab9b9;
+}
+
+
+footer a{
+    color: #2ab9b9;
+    display: block;
+}
+
+footer a:hover{
+    color: #2ab9b9;
+    text-decoration: none;
+}
+
+
+footer h3{
+    text-decoration: underline;
+    font-size: inherit;
+    font-family: inherit;
+    margin: inherit;
+    margin-bottom: 20px;
+    padding: inherit;
+}
+
+footer div:last-child{
+    text-align: right;
+    padding-top: 50px;
 }
 
 
@@ -198,7 +232,7 @@ header{
 }
 
 .como-comprar section{
-    height: 150px;
+    height: 160px;
     background: #4099ff;
 
 }
@@ -210,7 +244,7 @@ header{
 }
 
 .contacto section{
-    height: 150px;
+    height: 160px;
     background: #2ab9b9;
 
 }
@@ -310,6 +344,107 @@ header{
 
 .paso-3:before {
     content: "\e95f";
+}
+
+/*galeria*/
+
+.gallery{
+    
+}
+
+.gallery h2{
+    color:#2ab9b9;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    
+}
+
+.gallery p{
+    font-size: 0.95em;
+    line-height: 1.35em;
+    
+}
+
+.gallery article{
+    border: 2px solid #f3f5f9;
+   
+}
+.gallery img{
+    width: 100%;
+    border-bottom: 2px solid #f3f5f9;
+}
+
+.description{
+    padding: 10px;
+    border-bottom: 1px solid #f3f5f9;
+}
+
+.action{
+    padding: 5px;
+}
+
+.price{
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    color: #f3f5f9;
+    font-size: 1.35em;
+    text-align: center;
+}
+
+.add-to-cart{
+    display: block;
+    margin: 0 auto;
+    font-size:0.85em;
+    background-color: #4099ff;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.add-to-cart:hover{
+    background-color: rgba(64, 153, 255,0.9);
+}
+
+.see-more{
+    display: block;
+    margin: 0 auto;
+    font-size:0.85em;
+    background-color: #2ab9b9;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.see-more:hover{
+    background-color: rgba(42, 185, 185,0.9);
+}
+
+.cart-icon{
+    margin-right: 10px;
+    font-family: 'icomoon';
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+.cart-icon:before {
+    content: "\e93a";
+}
+
+.see-more-icon{
+    margin-right: 10px;
+    font-family: 'icomoon';
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+.see-more-icon:before {
+    content: "\e986";
 }
 
 
