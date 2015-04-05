@@ -447,5 +447,62 @@ footer div:last-child{
     content: "\e986";
 }
 
+/*checkout*/
+
+table{
+    text-align: center;
+}
+
+thead{
+    background-color: none;
+    font-weight: 400;
+}
+
+th{
+    text-align: center;
+}
+
+table input[type='checkbox']{
+    display: block;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+table input[type='number']{
+    display: block;
+    margin: 0 auto;
+    
+    color:#333539;
+    text-align: center;
+}
+
+tfoot{
+    
+    background-color: #1a1c1f;
+}
+
+button.boton{
+    height: 30px;
+    margin: 0 auto;
+    line-height: 1em;
+    background-color: #2ab9b9;
+    border-radius: 0;
+
+}
+
+button.boton:hover{
+    color:inherit;
+}
+
+button.pagar{
+    background-color: #4099ff;
+}
+
+button.pagar:hover{
+    color:inherit;
+}
+
+
+
 
 
